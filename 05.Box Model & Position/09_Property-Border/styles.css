@@ -3,3 +3,11 @@ p {
   background-color: coral;
   border: 2px solid blue;
 }
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
