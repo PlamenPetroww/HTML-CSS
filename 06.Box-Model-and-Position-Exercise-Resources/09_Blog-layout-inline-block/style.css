@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    width: 900px;
+    color: rgb(51, 51, 51);
+    margin: 2em 1em;
+}
+
+article {
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+}
+
+.left-article {
+    flex: 0 0 60%;
+}
+
+.left-article p,
+.left-article li {
+    font-family: Helvetica, sans-serif;
+}
+
+.right-article {
+    flex: 0 0 40%;
+}
+.right-article li {
+    text-decoration: underline;
+    color: blue;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
