@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* Typography */
+
+body, table, input, textarea {
+    font: inherit;
+}
+
+html {
+    font: 14px/1.5 Georgia, serif;
+}
+
+p, ul {
+    padding-bottom: 1.5em;
+}
+
+/* Layout */
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.site-title p {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.2;
+    font-family: Georgia, serif;
+    margin-top: 2em;
+    padding-bottom: 0;
+}
+
+.site-header {
+    border-bottom: 2px solid #444;
+    position: relative;
+}
+
+.site-title,
+.main-nav {
+    display: block;
+}
+
+.main-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Naigation */
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    color: green;
+    margin-left: 2em;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+
