@@ -22,6 +22,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid rgb(255, 255, 255, 0.5);
     border-radius: 0.3em;
     overflow: hidden;
 }
@@ -30,4 +31,34 @@ body {
     display: block;
     width: 100%;
     height: auto;
+}
+
+/* .card .inner-shadow {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.8) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover .inner-shadow {
+    opacity: 0;
+} */
+
+.card .fa-icon {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding: 0 0.1em 0.1em 0;
+}
+
+.card .fa-icon:hover {
+    color: red;
+    transition: 0.3s ease-in;
 }
