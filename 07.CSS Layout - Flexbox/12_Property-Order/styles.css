@@ -12,10 +12,12 @@
 
 #box2 {
   background-color: lightgreen;
+  order: -1;
 }
 
 #box3 {
   background-color: lightblue;
+  order: -1;
 }
 
 .flex-container > div {
