@@ -19,3 +19,7 @@
 #box2 {
   flex-shrink: 1;
 }
+
+#box1 {
+  flex-shrink: 0;
+}

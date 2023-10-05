@@ -12,6 +12,10 @@
   font-size: 30px;
 }
 
+#one {
+  flex-grow: 1;
+}
+
 #two {
   flex-grow: 2;
 }
