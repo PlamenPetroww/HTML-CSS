@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Verdana", sans-serif;
+
+}
+
+body {
+    padding: 4em;
+}
+
+.calendar {
+    border: 2px solid #333;
+}
+
+.calendar__up {
+    display: flex;
+}
+
+.calendar__up + .calendar__up {
+    border-top: 2px solid #333;
+}
+
+.calendar__up__week {
+    flex: 0 0 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 2px solid #333;
+}
+
+.calendar__up__week > .item:first-child {
+    flex-basis: 100%;
+    flex-shrink: 0;
+    padding: 3em 1.5em;
+    border-bottom: 2px solid #333;
+}
+
+.calendar__up__week__aside {
+    display: flex;
+    flex: 0 0 20%;
+    border-left: 2px solid #333;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar__up__week .item {
+    border-left: 2px solid #333;
+}
+
+.item {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 1em 1.5em;
+}
+
+.item.day + .item.day {
+    border-left: 2px solid #333;
+}
+

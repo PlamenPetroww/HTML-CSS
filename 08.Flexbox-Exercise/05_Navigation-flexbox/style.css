@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 1em 0;
+}
+
+h1 {
+    width: 75%;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+h2 {
+    margin: 1em 0;
+}
+
+li {
+    margin: 1em 0;
+    list-style: none;
+}
