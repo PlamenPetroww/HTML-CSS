@@ -1,0 +1,11 @@
+body {
+    padding: 2em;
+}
+
+.site {
+    display: flex;
+    margin: 0 auto;
+    max-width: 50em;
+    min-height: 100vh;
+    flex-direction: column;
+}
