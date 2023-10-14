@@ -1,0 +1,90 @@
+/* TODO: Add responsive styles here... */
+@media (max-width: 600px) {
+    
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-right: 0px;
+    }
+
+
+    .container {
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .hero-btns a:first-child,
+    .hero-btns a:last-child {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .side-img img {
+        left: 20px;
+    }
+
+    .side2-img img {
+        right: -6px;
+        top: 1850px;
+    }
+
+    .service-box {
+        text-align: left;
+        padding: 25px 30px;
+        margin-bottom: 2em;
+    }
+
+    .service-box p {
+        padding-bottom: 125px;
+    }
+
+    .about .row {
+        gap: 80px;
+    }
+
+    #contact-us .container {
+        max-width: 600px;
+    }
+
+    #contact-us .contact-btn {
+        display: none;
+    }
+
+    .container .row .col-12 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer h6 {
+        padding-bottom: 0px;
+    }
+
+}
