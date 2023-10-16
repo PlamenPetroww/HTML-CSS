@@ -1,0 +1,36 @@
+body {
+    background-color:#eeeeee;
+}
+
+.card {
+    width: 20em;
+    height: auto;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color:white;
+    position: relative;
+}
+
+h1 {
+    padding: 0.25em 0.5em;
+}
+
+p {
+    padding: 0.5em 1em;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    float: right;
+    margin: 0.5em 1em 1em 0;
+    border-radius: 4px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 0.2em 1em;
+}
