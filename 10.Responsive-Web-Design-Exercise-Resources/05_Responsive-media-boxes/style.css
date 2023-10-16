@@ -2,13 +2,18 @@ body {
     background-color:#eeeeee;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
     width: 20em;
     height: auto;
     overflow: hidden;
     border-radius: 4px;
     background-color:white;
-    position: relative;
 }
 
 h1 {
