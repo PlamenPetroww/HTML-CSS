@@ -99,9 +99,9 @@ p {
 /* Team */
 
 .our-team {
-    margin-left: auto;
+    margin: 3em auto 0 auto;
     display: flex;
-    margin-right: auto;
+
     justify-content: center;
 }
 
