@@ -1,0 +1,268 @@
+.welcome-section .container {
+    display: flex;
+}
+
+.welcome-section .welcome-left {
+    flex: 1 1 50%;
+}
+
+.welcome-section .welcome-right  {
+    flex: 1 1 50%;
+    margin-top: 2em;
+}
+
+.welcome-section h1 {
+    color: #0a66c5;
+    font-size: 4em;
+    margin-top: 0.5em;
+    font-weight: 400;
+}
+
+.welcome-section input {
+    display: block;
+    margin: 0.5em 0;
+    font-size: 2em;
+}
+
+.welcome-section p {
+    font-size: 2em;
+    color: #746e66;
+}
+
+.welcome-section .btn.sign-in {
+    display: block;
+    background-color: #0a66c5;
+    color: #fff;
+    border-radius: 20px;
+    padding: 1em 9em;
+    border: none;
+    margin-top: 1em;
+}
+
+.open-jobs .container {
+    display: flex;
+    background-color: #faf9f7;
+    padding: 8em 0;
+}
+
+.open-jobs .open-jobs-left {
+    flex: 1 1 35%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    
+}
+
+.open-jobs .open-jobs-left h2,
+.your-job .your-job-left h2,
+.let-the-people .let-the-people-left h2 {
+    font-weight: 400;
+    font-size: 2em;
+    padding-left: 3em;
+}
+
+.open-jobs .open-jobs-left h2 {
+    padding-right: 3em;
+}
+
+.your-job .your-job-left h2 {
+    color: #b54627;
+}
+
+.let-the-people .let-the-people-left h2 {
+    color:#0a66c5;
+    padding-right: 8em;
+}
+
+.open-jobs .open-jobs-right {
+    flex: 1 1 35%;
+}
+
+.open-jobs .empty {
+    flex: 1 1 30%;
+}
+
+.open-jobs .open-jobs-right p {
+    display: block;
+    color: #6f6f6e;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.open-jobs .open-jobs-right .positions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.open-jobs .positions li {
+    margin: 0.2em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.open-jobs .positions li,
+.open-jobs .positions a {
+    display: block;
+}
+
+.open-jobs .open-jobs-right .positions a {
+    text-decoration: none;
+    color:#7f7663;
+    background-color: #e6e5e4;
+    border-radius: 20px;
+    border: 1px solid #e6e5e4;
+    padding: 0.5em 2em;
+}
+
+.your-job .container {
+    display: flex;
+    background-color: #f1ece5;
+    padding: 3em 0;
+}
+
+.your-job .your-job-left {
+    flex: 1 1 35%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.your-job .your-job-right {
+    flex: 1 1 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.your-job .empty {
+    flex: 1 1 30%;
+}
+
+.your-job .your-job-right a {
+    text-decoration: none;
+    color: #605e5c;
+    padding: 1em 2em;
+    border: 1px solid #605e5c;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* LET THE PEOPLE */
+
+.let-the-people .container {
+    display: flex;
+    background-color: #faf9f7;
+    padding: 8em 0;
+}
+
+.let-the-people .let-the-people-left {
+    flex: 1 1 50%;
+}
+
+.let-the-people .let-the-people-left p {
+    padding-left: 4.6em;
+    font-size: 1.3em;
+}
+
+.let-the-people .let-the-people-right {
+    flex: 1 1 50%;
+}
+
+.let-the-people .let-the-people-right img {
+    width: 200px;
+    height: auto;
+    margin-left: 3em;
+}
+
+/* CONNECT */
+
+.connect-section .container {
+    display: flex;
+    background-color: #fff;
+    padding-top: 3em;
+}
+
+.connect-section .connect-section-left,
+.connect-section .connect-section-right {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6em;
+}
+
+.connect-section .connect-section-left .photo,
+.connect-section .connect-section-right .photo {
+    width: 200px;
+    height: auto;
+}
+
+.connect-section .connect-section-left h2,
+.connect-section .connect-section-right h2 {
+    margin-top: 2em;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.connect-section .connect-section-left a {
+    color: #6a6d72;
+    font-size: 1em;
+    border: 1px solid #6a6d72;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.connect-section .find-people {
+    margin: 2em 0;
+}
+
+/* FOOTER */
+
+.section-footer .container {
+    display: flex;
+    background-color: #faf9f7;
+    padding: 2em 0;
+}
+
+.section-footer h5 {
+    color: #583a38;
+    font-size: 1.1em;
+    padding-bottom: 0.5em;
+}
+
+.section-footer ul {
+    flex: 1 1 20%;
+}
+
+.section-footer li {
+    display: block;
+}
+
+.section-footer li a {
+    text-decoration: none;
+    color: #766b6d;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.section-footer li .custom-logo {
+    width: 40%;
+}
+
+.section-footer ul:first-child,
+.section-footer ul:last-child {
+    flex: 1 1 26%;
+}
+
+.section-footer ul:first-child {
+    text-align: center;
+}
+
+
+
+
+
+
+
+

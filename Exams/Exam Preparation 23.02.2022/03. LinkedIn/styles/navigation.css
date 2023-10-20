@@ -1,0 +1,43 @@
+.nav-bar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.nav-bar .logo .custom-logo{
+    width: 120px;
+    height: auto;
+}
+
+.nav-bar .register {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color:#0a66c5;
+}
+
+
+.nav-bar .register a {
+    text-decoration: none;
+    color: #746e66;
+    font-weight: 600;
+}
+
+.nav-bar .register li:nth-child(2) {
+    color: #0a66c5;
+    border: 1px solid #0a66c5;
+    border-radius: 20px;
+}
+
+.nav-bar .register li .a-blue {
+    color:#0a66c5;
+}
+
+.nav-bar .register li {
+    padding: 0.5em 1em;
+}
+
+.nav-bar .register li,
+.nav-bar .register a {
+    display: block;
+}
