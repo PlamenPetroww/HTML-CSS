@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #1b9772;
+}
+
+html {
+    font: 12px/1.5 'Helvetica';
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: #fff;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header .logo,
+.site-header .section-nav {
+    padding: 1em 2em;
+}
+
+.site-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.site-header .site-title {
+    font-size: 2em;
+    font-weight: bold;
+    border-right: 1px solid #3e4f5c;
+    padding-right: 1em;
+}
+
+.site-header .title-desc {
+    color: #3e4f5c;
+    margin-left: 2em;
+}
+
+.site-header .section-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-header ul {
+    display: flex;
+}
+
+.site-header li,
+.site-header a {
+    display: block;
+}
+
+.site-header li {
+    padding: 0.7em 1em;
+    margin-right: 0.1em;
+    background-color: #ececec;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #3b3835;
+    letter-spacing: 1.2px;
+}
+
+.site-header .section-nav ul li:first-child {
+    background-color: #e24e2a;
+}
+
+.site-header .section-nav .red {
+    color: #fff;
+}
+
+/* SITE MAIN */
+
+.site-main {
+    background-color: #e24e2a;
+}
+
+.site-main img {
+    width: 100%;
+    height: auto;
+}
+
+.site-main .container {
+    display: flex;
+    padding: 3em 11em;
+    margin-top: 52em;
+}
+
+.site-main .section-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e24e2a;
+    color: #f5bca1;
+    font-size: 14px;
+}
+
+.site-main .strong {
+    font-weight: bold;
+}
+
+.site-main .underline {
+    text-decoration: underline;
+}
+
+/* SITE INSTRUMENTS */
+
+.site-instruments .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 1em;
+    text-align: center;
+}
+
+.site-instruments {
+    background-color: #383838;
+}
+
+.site-instruments .instrument {
+    flex: 1 1 25%;
+}
+
+.site-instruments .icons-div {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #e24e2a;
+}
+
+.site-instruments .instrument-title,
+.site-titles h3 {
+    padding: 2em 0 1em 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.site-titles h3 {
+    font-size: 20px;
+}
+
+.site-instruments .instrument-desc,
+.site-titles p {
+    font-size: 16px;
+    color: #6b6967;
+    padding: 0 0.5em;
+}
+
+.site-instruments .instrument .instrument-title span {
+    display: block;
+    width: 28ch;
+    height: 2px;
+    background-color: #4c4c4c;
+    margin: 1em auto;
+}
+
+/* SITE WITH BUTTON */
+
+.site-wbtn {
+    background-color: #fff;
+}
+
+.site-wbtn .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.site-wbtn h2 {
+    color: #555555;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.site-wbtn .site-wbtn-desc {
+    color: #a2a2a2;
+    font-size: 1.5em;
+}
+
+.site-wbtn .btn-site {
+    margin-top: 2.5em;
+    background-color: #1b9772;
+    padding: 1em 2.5em;
+}
+
+.site-wbtn .btn-site a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+/* SITE INSTRUMENTS */
+
+.site-titles {
+    background-color: #383838;;
+}
+
+.site-titles .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 1em;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.site-footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8em 0;
+}
+
+.site-footer p {
+    color: #56b396;
+    letter-spacing: 2.5px;
+}
+
+.site-footer .bolted {
+    color: #9ad0bf;
+}
+
+
+
+
+
+
